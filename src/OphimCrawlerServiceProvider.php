@@ -23,10 +23,10 @@ class OphimCrawlerServiceProvider extends SP
     {
 
         config(['plugins' => array_merge(config('plugins', []), [
-            'hacoidev/ophim-crawler' =>
+            'hoanganh/cc-crawler' =>
             [
-                'name' => 'Ophim Crawler',
-                'package_name' => 'hacoidev/ophim-crawler',
+                'name' => 'CC Crawler',
+                'package_name' => 'hoanganh/cc-crawler',
                 'icon' => 'la la-hand-grab-o',
                 'entries' => [
                     ['name' => 'Crawler', 'icon' => 'la la-hand-grab-o', 'url' => backpack_url('/plugin/ophim-crawler')],
